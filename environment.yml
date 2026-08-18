@@ -1,9 +1,7 @@
-name: numpy-env
+name: ml-env
 channels:
-  - conda-forge
   - defaults
 dependencies:
   - python=3.11
   - numpy
-  - sklearn
-  - pip
+  - scikit-learn
