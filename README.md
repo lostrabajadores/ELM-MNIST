@@ -13,3 +13,5 @@ An ELM is a single-hidden-layer feedforward neural network with one key property
 Because the only “training” step is solving a single linear system, ELMs train extremely fast compared to a conventionally trained network, at the cost of some accuracy/flexibility.
 
 This example: 1. Loads MNIST using scikit-learn’s fetch_openml. 2. Builds a random hidden layer. 3. Solves for the output weights using the NORMAL EQUATION beta = (H^T H)^-1 H^T T instead of the Moore-Penrose pseudo-inverse (np.linalg.pinv), which is the approach most ELM tutorials use.
+
+Run it! [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lostrabajadores/ELM-MNIST/HEAD?urlpath=%2Fdoc%2Ftree%2FELM_MNIST.ipynb)
